@@ -1,0 +1,193 @@
+/*header*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Covered+By+Your+Grace&family=Fredoka+One&family=Hind:wght@600&family=Righteous&family=Rubik+Bubbles&display=swap');                                     
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*header*/
+
+.cabeza {
+  background-color: #5e548e;
+  color: #fffcf2;
+  font-family: 'Righteous', cursive;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.cabeza > .menu-nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+.cabeza > .menu-nav a {
+  color: #fffcf2;
+  text-decoration: none;
+
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*main*/
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+
+main .space-intro {
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/21/17/10/nightlife-2162772_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: opacity(0.7);
+
+  height: 500px;
+  width: 2050px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+}
+
+main .intro {
+  height: 50px;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Hind', sans-serif;
+  background-color: #e0b1cb;
+  border-radius: 7px;
+}
+
+main .intro p {
+  color: #fffcf2;
+  font-size: larger;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main .intro > .boton {
+  background-color: #5e548e;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+
+  font-family: 'Hind', sans-serif;
+  color: #fffcf2;
+  font-size: medium;
+
+}
+
+.boton a {
+  text-decoration: none;
+  color: #fffcf2;
+}
+
+/*main - parte 2*/
+
+.servicios {
+  background-color: #e0b1cb;
+  height: 1000px;
+  width: 100%;
+
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  gap: 30px;
+}
+
+.servicios .s1,
+.s2,
+.s3 {
+  height: 470px;
+  width: 550px;
+  object-fit: cover;
+  border-radius: 10px;
+
+  color: #5e548e;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  font-size: medium;
+}
+
+.servicios .s1-img1,
+.s2-img2,
+.s3-img3 {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/*main - parte 2*/
+
+.sobre-nos{                              
+  height: 280px;
+  width: 100%;  
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sobre-nos-texto{
+  height: 200px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  
+  text-align: center;
+  font-family: 'Hind', sans-serif;
+  color: #fffcf2;
+  
+}
+
+/*footer*/
+
+.pie{
+  height: 250px;
+  width: 100%;
+
+  font-family: 'Hind', sans-serif;
+  color: #fffcf2;
+  background-color: #5e548e;
+}
+
+
+.opc{
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
