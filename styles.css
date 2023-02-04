@@ -86,6 +86,7 @@ font-family: 'Righteous', cursive;
 .card3,
 .card4,
 .card5{
+  border-radius: 18px;
   height: 300px;
   width: 17%;
   border: blue solid;
@@ -96,6 +97,7 @@ font-family: 'Righteous', cursive;
 .text-card3,
 .text-card4,
 .text-card5{
+border-radius: top 18px;
 height: 200px;
 width: 100%;
 border: black solid;
