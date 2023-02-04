@@ -72,13 +72,41 @@ font-family: 'Righteous', cursive;
   background: linear-gradient(to top right, #6d6875, #b5838d, #e5989b, #ffb4a2, #ffcdb2)
 }
 
-.container-options1,
-.container-options2{
+.container-options1{
   height: 400px;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  border: red solid;
+}
+
+.container-options2{
+  height: 400px;
+  width: 100%;
+}
+
+.container-text{
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.latest-news{
+  color: white;
+  text-align: center;
+  height: 200px;
+  width: 80%;
+}
+
+.latest-news p{
+  font-size: x-large;
+}
+
+.container-options2-figures{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
 }
 
 .card1,
@@ -86,10 +114,10 @@ font-family: 'Righteous', cursive;
 .card3,
 .card4,
 .card5{
+  background: linear-gradient(to right, #6d6875, #e5989b);
   border-radius: 18px;
   height: 300px;
   width: 17%;
-  border: blue solid;
 }
 
 .text-card1,
@@ -97,10 +125,9 @@ font-family: 'Righteous', cursive;
 .text-card3,
 .text-card4,
 .text-card5{
-border-radius: top 18px;
+border-radius:18px;
 height: 200px;
 width: 100%;
-border: black solid;
 }
 
 .background2{
