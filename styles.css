@@ -45,7 +45,7 @@ font-family: 'Righteous', cursive;
 
 .text{
   width: 70%;
-  height: 560px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -55,7 +55,7 @@ font-family: 'Righteous', cursive;
 
 .text h1{
   width: 70%;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
 }
 
 .text p{
@@ -66,6 +66,91 @@ font-family: 'Righteous', cursive;
 }
 
 .background-mixed{
-  height: 500px;
+  height: 750px;
   width: 100%;
+  padding: 2em;
+  background: linear-gradient(to top right, #6d6875, #b5838d, #e5989b, #ffb4a2, #ffcdb2)
+}
+
+.container-options1,
+.container-options2{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: red solid;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5{
+  height: 300px;
+  width: 17%;
+  border: blue solid;
+}
+
+.text-card1,
+.text-card2,
+.text-card3,
+.text-card4,
+.text-card5{
+height: 200px;
+width: 100%;
+border: black solid;
+}
+
+.background2{
+  background-image: url(https://cdn.pixabay.com/photo/2020/03/21/19/27/sea-4955005_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+
+footer{
+  background-color: #6d6875;
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+
+.logo{
+  height: 100%;
+  width: 30%;
+  border: blue solid; 
+}
+
+.logo .block1{
+  height: 60%;
+  width: 100%;
+  border: green solid;
+}
+
+.logo .block2{
+  height: 40%;
+  width: 100%;
+  border: greenyellow solid;
+}
+
+.nav-container{
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border: red solid;
+}
+
+.l1,
+.l2,
+.l3,
+.l4{
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border: brown solid;
 }
